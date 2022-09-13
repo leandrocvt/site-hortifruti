@@ -31,7 +31,9 @@ header {
 }
 
 #menu-logo {
-    width: 30%;
+    width: 20%;
+    display: flex;
+    align-items: flex-start;
 }
 
 #menu-logo img {
@@ -65,16 +67,16 @@ header {
 }
 
 #div-botoes {
-    width: 20%;
+    width: 30%;
     height: 40px;
     background-color: aqua;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: auto;
 }
 
 #div-botoes #entrar{
-    width: 40%;
+    width: 35%;
     border-radius: 50px;
     color: #fff;
     background-color: #EA6200;
@@ -95,7 +97,7 @@ header {
 }
 
 #div-botoes #cadastrar {
-    width: 50%;
+    width: 45%;
     color: #fff;
     border-radius: 50px;
     background-color: #0FB600;
@@ -103,10 +105,13 @@ header {
     cursor: pointer;
 }
 
+/* Fim Header */
+/* Section Inicio*/
+
 #inicio {
     display: flex;
     width: 100%;
-    height: 550px;
+    height: 500px;
     background-color: #a7ddb0;
 }
 
@@ -145,13 +150,14 @@ h1{
     color: green;
     background-color: aqua;
 }
-span{
+#txt-topo span{
     color: orangered;
 }
 
-p{
+#txt-topo p{
     font-size: 20px;
     padding-left: 100px;
+    margin-top: 20px;
     background-color: #EA6200;
 }
 
@@ -161,7 +167,30 @@ p{
     border-radius: 50px;
     color: #fff;
     background-color: #EA6200;
-    margin-top: 10px;
+    margin-top: 15px;
     font-size: 15px;
     cursor: pointer;
+}
+
+#promocao{
+    width: 100%;
+    height: 400px;
+    background-color: #ff7979;
+}
+
+#promocao div{
+    width: 70%;
+    height: 385px;
+    background-repeat: no-repeat;
+    background-color: #000;
+    background-image: url('img/eclipse-promocao.svg');
+}
+
+#titulo h2 {
+    margin: auto;
+    font-size: 30px;
+    text-align: center;
+    width: 150px;
+    color: #0FB600;
+    border-bottom: 1px solid #0FB600;
 }
