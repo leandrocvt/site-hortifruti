@@ -12,9 +12,8 @@
 
 main {
     margin: auto;
-    width: 98%;
+    width: 100%;
     height: auto;
-    background-color: #ccc;
 }
 
 header {
@@ -27,7 +26,7 @@ header {
     width: 100%;
     height: 100px;
     display: flex;
-    background-color: cadetblue;
+    /* background-color: cadetblue; */
 }
 
 #menu-logo {
@@ -52,7 +51,7 @@ header {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    background-color: rgb(211, 48, 48);
+    /* background-color: rgb(211, 48, 48); */
 }
 
 #menu-links li a {
@@ -69,7 +68,7 @@ header {
 #div-botoes {
     width: 30%;
     height: 40px;
-    background-color: aqua;
+    /* background-color: aqua; */
     display: flex;
     justify-content: space-around;
     margin: auto;
@@ -93,7 +92,9 @@ header {
 
 #div-botoes #cadastrar:hover{
     transition: all 1s;
-    background-color: #EA6200;
+    background-color: #fff;
+    border: 1px solid #0FB600;
+    color: #0FB600;
 }
 
 #div-botoes #cadastrar {
@@ -112,19 +113,19 @@ header {
     display: flex;
     width: 100%;
     height: 500px;
-    background-color: #a7ddb0;
+    /* background-color: #a7ddb0; */
 }
 
 #div-topo {
     width: 50%;
     height: 100%;
-    background-color: blueviolet;
+    /* background-color: blueviolet; */
     display: flex;
 }
 
 #img-topo {
     width: 85%;
-    height: 250px;
+    height: 300px;
     margin: auto;
 }
 
@@ -136,11 +137,11 @@ header {
 #txt-topo {
     width: 50%;
     height: 100%;
-    background-color: rgb(8, 199, 34);
+    /* background-color: rgb(8, 199, 34); */
     display: flex;
     flex-direction: column;
     text-align: right;
-    padding: 150px 0px 0px 100px;
+    padding: 100px 0px 0px 100px;
     align-items: flex-end;
 }
 
@@ -148,7 +149,7 @@ h1{
     text-transform:uppercase ;
     font-size: 40px;
     color: green;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 .cor-letra{
     color: orangered;
@@ -158,7 +159,7 @@ h1{
     font-size: 20px;
     padding-left: 100px;
     margin-top: 20px;
-    background-color: #EA6200;
+    /* background-color: #EA6200; */
 }
 
 #comprar{
@@ -172,17 +173,22 @@ h1{
     cursor: pointer;
 }
 
+#comprar:hover{
+    transition: all 1s;
+    background-color: #ea6200cc;
+}
+
 #promocao{
     width: 100%;
     height: 400px;
-    background-color: #ff7979;
+    /* background-color: #ff7979; */
 }
 
 #promocao{
     width: 70%;
     height: 385px;
     background-repeat: no-repeat;
-    background-color: #000;
+    /* background-color: #000; */
     background-image: url('img/eclipse-promocao.svg');
 }
 
@@ -201,13 +207,13 @@ h1{
     font-size: 25px;
     color: green;
     margin: 20px 0px;
-    background-color: aqua;
+    /* background-color: aqua; */
 }
 
 #produtos{
     width: 100%;
     height: auto;
-    background-color: coral;
+    /* background-color: coral; */
     display: flex;
     justify-content: space-around;
     background-image: linear-gradient(0deg, #fff 20%, #0FB600 20%, #0FB600 80%, #fff 20%);
@@ -215,7 +221,7 @@ h1{
 
 .circulos{
     width: 20%;
-    background-color: rgb(241, 241, 0);
+    /* background-color: rgb(241, 241, 0); */
 }
 
 .circulos img{
