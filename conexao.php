@@ -4,6 +4,10 @@ $usuario = "root";
 $senha = "MySQL@2022";
 $dbname = "bdhortifruti";
 
-//criar conexao
-$conexao = mysqli_connect($servidor, $usuario, $senha, $dbname);
-?>
+$mysqli = new mysqli($servidor, $usuario, $senha, $dbname);
+
+//checar conexão
+if($mysqli->connect_errno) {
+    echo "Connect failed: " . $mysqli->connect_error;
+    exit();
+}

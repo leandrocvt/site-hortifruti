@@ -25,8 +25,8 @@
                     </ul>
                 </div>
                 <div id="div-botoes">
-                    <a href="login.php" id="entrar" target="_blank">Entrar</a>
-                    <a href="cadastro.php" id="cadastrar" target="_blank">Cadastrar</a>
+                    <a href="login.php" id="entrar">Entrar</a>
+                    <a href="cadastro.php" id="cadastrar">Cadastrar</a>
                 </div>
             </nav>
         </header>
