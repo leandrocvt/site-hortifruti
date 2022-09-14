@@ -16,10 +16,10 @@
         </div>
         <form action="#">
             <label for="useremail">E-mail</label>
-            <input type="email" name="useremail" id="name" maxlength="30" required>
+            <input type="email" name="useremail" id="name" class="input" maxlength="30" required>
             <label for="userpassword">Senha</label>
-            <input type="password" name="userpassword" id="password" maxlength="30" required>
-            <button type="button" id="login">Entrar</button>
+            <input type="password" name="userpassword" id="password" class="input" maxlength="30" required>
+            <input type="button" id="login" value="Entrar">
             <p>Esqueceu a senha?</p>
             <div>
                 <span>Novo no Hortifruti?</span>

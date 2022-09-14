@@ -39,7 +39,7 @@ form{
     border: 1px solid #EA6200;
 }
 
-form input{
+.input{
     height: 35px;
     outline: none;
     border: 1px solid #0FB600;
